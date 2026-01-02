@@ -1,1 +1,44 @@
 
+# Classificador Manager
+
+Atributos
+
+- RepositorioStreaming: IFilmeRepository
+- ServicoIMDB: IMDBService
+
+Métodos
+
++ iniciarClassificação(FilmeId: String): void
++ atualizarTagGenero(filmeId: String, novoGenero: String): boolean
+
+IMDBService
+
+Atributos
+
+- apiKey: String
+- baseurl: String
+
+Métodos
+
++ buscarDadosCompletos(título: String): JSON
++ ValidarConexao(): boolean
+
+# ExtratorDados
+
+Atributos
+
+- Delimitador: String = " , "
+
+Métodos
+
++ extrairGeneroUnico(generosBrutos: String): String
++ extrairNota(dadis: JSON): float
++ montarObjetoClassificado(dados: JSON): DadosClassificados
+
+# DadosClassificados
+
++ generoOficial: String
++ notaIMDB: float
++ posterURL: String
++ sinopse: String
+
