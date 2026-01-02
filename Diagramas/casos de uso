@@ -1,12 +1,22 @@
 
 # Caso de uso
 
-**Ator:**
+Ator:
 
-**Administrador** --> extrair dados do IMDB
-**Administrador** --> Monitorar Classificação
-**Administrador** --> Garantir a reclassificação
-**Administrador** -->Usar filtros para classificação
+Administrador --> Extrair dados do IMDB
+Administrador --> Monitorar Classificação
+Administrador --> Garantir a reclassificação
+Administrador --> Usar filtros para classificação
+Administrador --> Elaborar listas de filmes por gêneros
+
+Usuário --> Buscar por Gêneros
+Usuário --> Visualizar os filmes dos gêneros buscados
+Usuário --> Criar listas de filmes para assistir por gêneros
+
+Aplicação --> Associar o gênero a cada filme
+Aplicação --> Atualizar os gêneros dos filmes de acordo com as alterações no IMDB
+
+
 
 
 
