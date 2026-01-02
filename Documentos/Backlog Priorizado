@@ -1,1 +1,21 @@
 
+Must Have
+
+P01: Filtrar os gêneros dos filmes do IMDB
+
+P02: Associar os filmes aos gêneros filtrados
+
+P03: Armazenar os filmes por gênero
+
+P04: Buscar os filmes por gênero
+
+Should Have
+
+P05: Criar listas de filmes por gênero
+
+P06: Buscar filmes nas listas criadas
+
+
+Could Have
+
+P07: Reclassificar os filmes por gênero // Funcionalidade automatizada para caso haja alterações de gênero do IMDB
