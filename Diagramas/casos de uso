@@ -12,6 +12,7 @@ Administrador --> Elaborar listas de filmes por gêneros
 Usuário --> Buscar por Gêneros
 Usuário --> Visualizar os filmes dos gêneros buscados
 Usuário --> Criar listas de filmes para assistir por gêneros
+Usuário --> Buscar por gêneros das listas criadas
 
 Aplicação --> Associar o gênero a cada filme
 Aplicação --> Atualizar os gêneros dos filmes de acordo com as alterações no IMDB
