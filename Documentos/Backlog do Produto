@@ -1,1 +1,9 @@
+# Backlog do Produto
 
+# ÉPICOS
+
+ÉPICO 01: Acesso e controle dos dados // Esse épico se refere as atividades relacionadas a extração, controle e manipulação dos dados úteis para a categorização dos filmes.
+
+Épico 02: Categorização dos filmes // Épico relacionado as ações necessárias para associar cada filme a cada gênero de forma automatizada, como a atualização do gênero de um filme caso haja alguma mudança no IMDB. 
+
+Épico 03: Acesar e manipulação dos filmes por gêneros // Épico associado a ações que garantam o acesso aos filmes, criação de listas e buscar filmes nas listas criadas por gêneros.
