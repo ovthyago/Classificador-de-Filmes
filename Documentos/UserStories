@@ -1,7 +1,16 @@
 # User Stories
 
+# Administrador 
 
 US01: Eu como administrador da aplicação de classificação de filmes preciso filtrar os gêneros de cada filmes do catálogo para associar o gênero do IMDB a cada filme.
+US02: Eu como Administrador preciso extrair os dados dos filmes do IMDB para ter uma lista de filmes com as classificações de gêneros do IMDB.
+US03: Eu como Administrador preciso monitorar a Classificação de gêneros dos filmes para constatar que está sendo realizado da forma correta.
+US03: Eu como Administrador preciso garantir a reclassificação dos gêneros dos filmes para garantir que está de acordo com as, possíveis, atualizações do IMDB quanto aos gêneros dos filmes.
+US04: Eu como Administrador preciso armazenar os filmes de acordo com seus gêneros para facilitar a buscar por gêneros pelos usuários.
 
+# Usuário
 
-
+US05: Eu como Usuário da aplicação quero buscar os filmes por gênero para ter acesso ao acervo de filmes de cada gênero que quero assistir
+US06: Eu como Usuário da aplicação quero visualizar os filmes do gênero buscado para selecionar um filme do gênero procurado
+US07: Eu como Usuário da aplicação quero criar listas de filmes por gênero para não ter que buscar novamente por gênero de filmes que quero assistir
+US08: Eu como Usuário da aplicação quero buscar dentro das listas de gêneros que criei anteriormente para encontrar o filme que quero ver
