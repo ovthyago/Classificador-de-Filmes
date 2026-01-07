@@ -1,21 +1,24 @@
+Must Have (Obrigatório) // O que o sistema precisa ter para o projeto existir e resolver o erro de classificação.
 
-Must Have
+    P01: Integração e Sincronização com Base IMDB: Implementar o pipeline de extração de metadados do IMDB para garantir que a fonte da verdade seja externa e confiável.
 
-P01: Filtrar os gêneros dos filmes do IMDB
+    P02: Motor de Mapeamento Automático de Gêneros: Desenvolver o algoritmo que processa o catálogo atual e substitui as classificações antigas (erradas) pelas novas categorias importadas.
 
-P02: Associar os filmes aos gêneros filtrados
+    P03: API de Consulta por Categorias: Estruturar o banco de dados e os serviços de backend para permitir buscas rápidas e filtragem de filmes baseadas na nova taxonomia.
 
-P03: Armazenar os filmes por gênero
+    P04: Dashboard de Auditoria de Dados: Interface simples para que administradores confirmem se a transição dos dados ocorreu sem perdas ou inconsistências graves.
 
-P04: Buscar os filmes por gênero
+Should Have (Desejável) //Funcionalidades importantes que agregam muito valor, mas não impedem o lançamento inicial.
 
-Should Have
+    P05: Motor de Listas Dinâmicas: Sistema que gera automaticamente agrupamentos de filmes (ex: "Melhores de Terror", "Novidades em Comédia") baseados na nova classificação.
 
-P05: Criar listas de filmes por gênero
+    P06: Busca Avançada Multi-Gênero: Permitir que o usuário combine filtros (ex: "Ação" + "Sci-Fi") para encontrar filmes específicos, aproveitando a precisão dos novos dados.
 
-P06: Buscar filmes nas listas criadas
+    P07: Atualização Automática de Metadados (Self-Healing): Rotina programada para verificar se houve mudanças no IMDB e atualizar o catálogo local sem intervenção manual.
 
+    
+Could Have (Poderia ter) // Funcionalidades que podem ser um diferencial em relação a classificação por gênero de outras plataformas
 
-Could Have
+    P08: Sistema de Feedback do Usuário: Botão de "Reportar Erro de Categoria", permitindo que o público ajude a identificar inconsistências que o IMDB possa ter ignorado.
 
-P07: Reclassificar os filmes por gênero // Funcionalidade automatizada para caso haja alterações de gênero do IMDB
+    P09: Sugestão de Gêneros por Inteligência Artificial: Uso de LLMs ou NLP para analisar a sinopse do filme e sugerir subgêneros que não constam nas tags oficiais.
