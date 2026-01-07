@@ -2,8 +2,14 @@
 
 # ÉPICOS
 
-ÉPICO 01: Acesso e controle dos dados // Esse épico se refere as atividades relacionadas a extração, controle e manipulação dos dados úteis para a categorização dos filmes.
+ÉPICO 01: Infraestrutura e Governança de Dados
 
-Épico 02: Categorização dos filmes // Épico relacionado as ações necessárias para associar cada filme a cada gênero de forma automatizada, como a atualização do gênero de um filme caso haja alguma mudança no IMDB. 
+Descrição: Estabelecer o pipeline de dados para extração, limpeza e armazenamento das informações cinematográficas. Este épico foca em garantir que a "matéria-prima" (sinopses, metadados, elencos) esteja disponível e confiável para os modelos de classificação, consolidando fontes internas e externas (como APIs de terceiros).
 
-Épico 03: Acesar e manipulação dos filmes por gêneros // Épico associado a ações que garantam o acesso aos filmes, criação de listas e buscar filmes nas listas criadas por gêneros.
+ÉPICO 02: Motor de Classificação Inteligente
+
+Descrição: Desenvolver e implementar a lógica de categorização automatizada. Inclui a criação de modelos de Machine Learning ou integração com bases de referência (como IMDB/TMDB) para reclassificar o catálogo existente. O objetivo é garantir que a atribuição de gêneros seja dinâmica e reflita atualizações globais em tempo real.
+
+ÉPICO 03: Experiência de Navegação e Curadoria por Gênero
+
+Descrição: Implementar as interfaces e serviços que permitem ao usuário final e aos administradores interagir com a nova classificação. Envolve a criação de mecanismos de busca refinados, filtros por gêneros recalibrados e a geração de listas dinâmicas baseadas na nova taxonomia de dados.
